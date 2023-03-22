@@ -12,16 +12,12 @@ export default class Books {
     this.renderBooks();
   }
 
-  get get() {
-    return this.books;
-  }
-
-  refresh() {
+  refresh = () => {
     this.renderBooks();
     localStorage.setItem('books', JSON.stringify(this.books));
-  }
+  };
 
-  renderBooks() {
+  renderBooks = () => {
     const container = document.querySelector(this.selector);
     container.innerHTML = '';
     this.books.forEach((b) => {
@@ -43,17 +39,17 @@ export default class Books {
 
       container.appendChild(book);
     });
-  }
+  };
 
-  add(item) {
+  add = (item) => {
     this.idCounter += 1;
     localStorage.setItem('counter', this.idCounter);
     this.books.push(new Book(item.title, item.author, this.idCounter));
     this.refresh();
-  }
+  };
 
-  remove(item) {
+  remove = (item) => {
     this.books = this.books.filter((bookItem) => bookItem.id !== Number(item));
     this.refresh();
-  }
+  };
 }
