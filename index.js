@@ -1,3 +1,4 @@
+import { DateTime } from './modules/luxon.js';
 import Books from './modules/Books.js';
 
 const title = document.getElementById('title');
@@ -35,3 +36,6 @@ const handleLinks = (e, link) => {
 listBtn.addEventListener('click', (e) => handleLinks(e, list));
 addBtn.addEventListener('click', (e) => handleLinks(e, addNew));
 contactBtn.addEventListener('click', (e) => handleLinks(e, contact));
+
+const time = document.getElementById('time');
+time.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
