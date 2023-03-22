@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span class="logo">awesome books</span>
+        <ul class="links">
+          <li><a class="active" id="list-btn" href="#list">list</a></li>
+          <li><a href="#addNew" id="add-btn">add new</a></li>
+          <li><a href="#contact" id="contact-btn">contact</a></li>
+        </ul>
+      </nav>
+      <p id="time"></p>
+    </header>
+    <main>
+      <section id="list">
+        <h1>all awesome books</h1>
+        <div id="books"></div>
+      </section>
+      <section id="addNew" class="hide">
+        <h1>Add a new book</h1>
+        <form action="#">
+          <input type="text" id="title" placeholder="Title" />
+          <input type="text" id="author" placeholder="Author" />
+          <button type="submit" class="add">Add</button>
+        </form>
+      </section>
+      <section id="contact" class="hide">
+        <h1>contact information</h1>
+        <p>
+          Do you have any questions or you just want to say "Hello"?
+          <br />
+          You can reach out to us!
+          <ul>
+            <li>Our e-mail mail@mail.com</li>
+            <li>Our phone number (123) 456 7889 </li>
+            <li>Our address Street-name 22, 84503 City, Country</li>
+          </ul>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <h3>copyright -</h3>
+      </nav>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
