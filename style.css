@@ -57,7 +57,7 @@ main {
   width: 100%;
   max-width: 768px;
   margin: 6rem auto;
-  min-height: 65vh;
+  min-height: 50vh;
 }
 
 form {

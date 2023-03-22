@@ -4,13 +4,21 @@ import Books from './modules/Books.js';
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 const add = document.querySelector('.add');
+const error = document.querySelector('.error');
 const books = new Books();
 
 add.addEventListener('click', (e) => {
   e.preventDefault();
-  books.add({ title: title.value, author: author.value });
-  title.value = '';
-  author.value = '';
+
+  if (!title.value || !author.value) {
+    error.innerHTML = 'Please add Title and Author';
+    error.style.color = 'red';
+  } else {
+    books.add({ title: title.value, author: author.value });
+    title.value = '';
+    author.value = '';
+    error.innerHTML = '';
+  }
 });
 
 const list = document.getElementById('list');
