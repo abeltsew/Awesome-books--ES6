@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://abeltsew.github.io/Awesome-books-es6/)
+- [Live Demo](https://abeltsew.github.io/Awesome-books--ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +92,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/abeltsew/Awesome-books-es6.git
+  git clone https://github.com/abeltsew/Awesome-books--ES6.git
 ```
 
 -
@@ -125,7 +125,7 @@ You can deploy this project using github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1: Abel Tsegaye**
+👤 **Author: Abel Tsegaye**
 
 - GitHub: [@githubhandle](https://github.com/abeltsew)
 - Twitter: [@twitterhandle](https://twitter.com/abeltsew)
@@ -159,7 +159,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can buy us coffee. Contact detail is above.
+If you like this project you can buy me coffee. Contact detail is above.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
