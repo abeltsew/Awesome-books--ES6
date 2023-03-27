@@ -26,24 +26,23 @@
       </section>
       <section id="addNew" class="hide">
         <h1>Add a new book</h1>
-        <form action="#">
-          <input type="text" id="title" placeholder="Title" />
-          <input type="text" id="author" placeholder="Author" />
+        <form action="#" method="post">
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="text" id="author" placeholder="Author" required />
+          <span class="error"></span>
           <button type="submit" class="add">Add</button>
         </form>
       </section>
       <section id="contact" class="hide">
         <h1>contact information</h1>
-        <p>
-          Do you have any questions or you just want to say "Hello"?
-          <br />
-          You can reach out to us!
-          <ul>
-            <li>Our e-mail mail@mail.com</li>
-            <li>Our phone number (123) 456 7889 </li>
-            <li>Our address Street-name 22, 84503 City, Country</li>
-          </ul>
-        </p>
+        Do you have any questions or you just want to say "Hello"?
+        <br />
+        You can reach out to us!
+        <ul>
+          <li>Our e-mail mail@mail.com</li>
+          <li>Our phone number (123) 456 7889</li>
+          <li>Our address Street-name 22, 84503 City, Country</li>
+        </ul>
       </section>
     </main>
     <footer>
@@ -51,6 +50,6 @@
         <h3>copyright -</h3>
       </nav>
     </footer>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
